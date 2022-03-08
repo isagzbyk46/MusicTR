@@ -1,0 +1,105 @@
+{
+    "name": "Talia Winamp Music",
+    "description": "Telegram Group Pyrogram ve Py-Tgcalls ile Python'da yazılmış bazı kullanışlı özelliklere sahip akış botlarını çağırır. Youtube, Spotify, Resso, AppleMusic, Soundcloud ve M3u8 Links gibi destekleyici platformlar.",
+    "logo": "https://i.ibb.co/khRz42f/Turkish-Voice.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "Winamp",
+    "Talia-WinampMusic",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "stack": "container",
+    "env": {
+      "API_ID": {
+        "description": "Bu değeri https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Bu değeri https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "AUTO_LEAVING_ASSISTANT": {
+        "description": "Asistanınızın bir süre sonra tüm sohbetleri otomatik olarak bırakmasını istiyorsanız.",
+        "value": "True",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "Botfather'dan bir Bot jetonu",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Mongo DB URL",
+        "value": "",
+        "required": true
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "Müzik Botunuz için bir isim. Lütfen ascii karakterleri kullanmayın",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "Sahibi olarak eklemek istediğiniz kullanıcıların kullanıcı kimlikleri. Birden çok değer bir boşlukla yaz.",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "Pyrogram Dize Oturumu. Bir Asistan Zorunludur.",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION2": {
+        "description": "Pyrogram Dize Oturumu. İkinci Asistan Zorunlu Değildir.",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_API_KEY": {
+        "description": "Heroku hesabınızın API anahtarı",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Heroku uygulamanızın/botunuzun adı",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "Günlük Grubu Kimliğinizi ekleyin, botunuzu ekleyin ve tam haklara sahip bir yönetici olarak tanıtın!. Yalnızca Grup'ı kullanın. Lütfen Kanal Kimliği kullanmayın.",
+        "value": "",
+        "required": true
+      },
+      "UPSTREAM_REPO": {
+        "description": "Eğer bunu bilmiyorsan, Kendi repo adını git olarak yaz.",
+        "value": "",
+        "required": true
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "Repo'nun Şube Adı",
+        "value": "master",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "formation": {
+          "worker": {
+              "quantity": 1,
+              "size": "free"
+          }
+      },
+      "stack": "container"
+  }
