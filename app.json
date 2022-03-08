@@ -80,7 +80,7 @@
       },
       "UPSTREAM_BRANCH": {
         "description": "Repo'nun Şube Adı",
-        "value": "master",
+        "value": "main",
         "required": true
       }
     },
