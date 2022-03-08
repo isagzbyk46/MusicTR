@@ -1,13 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-
-
 import config
 from YukkiMusic.core.mongo import mongodb
 
@@ -134,13 +124,13 @@ async def set_playmode(chat_id: int, mode: str):
     )
 
 
-# language
+# Dil Türkiye dilidir.. Şanlı Türk bayrağına Selam olsun. 
 async def get_lang(chat_id: int) -> str:
     mode = langm.get(chat_id)
     if not mode:
         lang = await langdb.find_one({"chat_id": chat_id})
         if not lang:
-            langm[chat_id] = "en"
+            langm[chat_id] = "tr"
             return "en"
         langm[chat_id] = lang["lang"]
         return lang["lang"]
