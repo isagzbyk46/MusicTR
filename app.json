@@ -75,7 +75,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "Eğer bunu bilmiyorsan, Kendi repo adını git olarak yaz.",
-        "value": "",
+        "value": "https://github.com/Mehmetbaba55/MusicTR",
         "required": true
       },
       "UPSTREAM_BRANCH": {
