@@ -1,4 +1,4 @@
-name : Türkish
+name : Turkish
 
 # Genel Dizeler
 general_1 : "Kullanıcının mesajını yanıtlama veya kullanıcı adı/user_id verme."
@@ -280,7 +280,7 @@ ST_B_2 : "🎥 Vid Kalitesi"
 ST_B_3 : "🎩 Kimlik Doğrulama Kullanıcıları"
 ST_B_4 : "📱 Tablo"
 ST_B_5 : "▶️ Çalma Modu"
-ST_B_6 : "🇹🇷 Türkçe Dil Modu"
+ST_B_6 : "📖 Dil Modu"
 ST_B_7 : "🔄 Temiz Mod"
 ST_B_8 : "{0} Düşük Kaliteli Ses"
 ST_B_9 : "{0} Orta Kaliteli Ses"
