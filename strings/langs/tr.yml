@@ -61,8 +61,8 @@ admin_22 : "Karıştırılamadı.\n\nSırayı denetle : /queue"
 admin_23 : "**Sıra Karıştırıldı by {0}**\n\nKarıştırılmış kuyruğu denetle : /queue"
 admin_24 : "**Kullanım:**\n/loop [enable/disable] veya [Arasındaki sayı 1-10]\n\n**Örneğin:** /loop 5"
 admin_25 : "Döngü tarafından etkinleştirildi {0} for **{1}** kere. Bot şimdi sesli sohbette mevcut müzik çalmayı tekrarlayacak **{1}** kere"
-admin_26 : "Loop play için lütfen 1-10 arasındaki numaraları kullanın"
-admin_27 : "Loop Play devre dışı bırakıldı"
+admin_26 : "Tekrar oynatmak için lütfen 1-10 arasındaki numaraları kullanın"
+admin_27 : "Tekrar oynatma devre dışı bırakıldı"
 
 # Bot 
 
@@ -214,13 +214,13 @@ song_11 : "Karşıya Yükleme Başlatıldı\n\nYükleme hızı yavaş olabilir. 
 queue_1 : "Lütfen bekleyin.. Sıradaki şarkılar getiriliyor.."
 queue_2 : "Kuyruk içinde iz yok."
 queue_3 : "<u>**Kuyruğa Atılmış İzler:</u>**  [Buradan Daha Fazla Sıraya Alınan parça]({0})"
-queue_4 : "⏳ Kuyruğa Eklendi **#{0}\n\n💡Başlık:** {1}\n**⏱Süre:** {2}\n👤**Ekleyen:** {3}"
+queue_4 : "⏳ Kuyruğa Eklendi **#{0}\n\n💡 Başlık:** {1}\n**⏱Süre:** {2}\n👤 **Ekleyen:** {3}"
 
 # All Streaming Lines
-stream_1 : "📡 **Akış Başlatıldı** 💡\n\n👤**İsteyen:** {0}\n🔦**Bilgi: **[Bot Menüsü]({1})"
+stream_1 : "📡 **Akış Başlatıldı** 💡\n\n👤 **İsteyen:** {0}\n🔦 **Bilgi: **[Bot Menüsü]({1})"
 stream_2 : "📡 **URL üzerinden Akışa Başladı ** 💡\n\n👤**Requested By:** {0}"
-stream_3 : "📡 **Akış Başlatıldı** 💡\n\n**🏷Başlık:** {0}\n⌛️**Süre**: {1}\n👤**İsteyen:** {2}"
-stream_4 : "📡 **Akış Başlatıldı** 💡\n\n**🏷Başlık:** [{0}]({1})\n⌛️**Süre**: {2}\n👤**İstenen:** {3}"
+stream_3 : "📡 **Akış Başlatıldı** 💡\n\n**🏷 Başlık:** {0}\n⌛️ **Süre**: {1}\n👤 **İsteyen:** {2}"
+stream_4 : "📡 **Akış Başlatıldı** 💡\n\n**🏷 Başlık:** [{0}]({1})\n⌛️ **Süre**: {2}\n👤 **İstenen:** {3}"
 
 # Inline Buttons
 
@@ -264,7 +264,7 @@ P_B_4 : "🎵 Çalma Listesini Çal"
 #Playlist
 PL_B_1 : "🚀 Çalma Listesini Oynat"
 PL_B_2 : "✚ Çalma Listeleri"
-PL_B_3 : "✚ İlave"
+PL_B_3 : "✚ Komutlar"
 PL_B_4 : "📡 Çalma Modu"
 PL_B_5 : "🔄 Del Tüm Çalma Listesi"
 PL_B_6 : "↗️ Çalma Listesini Sil"
@@ -275,7 +275,7 @@ PL_B_10 : "🏘 Play Group'un En İyi 10 Parçası"
 PL_B_11 : "👤 Kişisel En İyi 10 Parçayı Çal"
 
 #Settings
-ST_B_1 : "🔊 Aud Kalitesi"
+ST_B_1 : "🔊 Ses Kalitesi"
 ST_B_2 : "🎥 Vid Kalitesi"
 ST_B_3 : "🎩 Kimlik Doğrulama Kullanıcıları"
 ST_B_4 : "📱 Tablo"
