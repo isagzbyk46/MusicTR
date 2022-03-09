@@ -7,7 +7,7 @@ HELP_COMMAND : ["help", "हेल्प"]
 SETTINGS_COMMAND : ["settings", "setting", "सेटिंग्स", "सेटिंग"]
 RELOAD_COMMAND : ["admincache", "reload", "व्यवस्थापक कैश", "पुनः लोड करें"]
 STATS_COMMAND : ["stats", "आँकड़े"]
-LANGUAGE_COMMAND : ["lang", "language"]
+LANGUAGE_COMMAND : ["lang", "language", "en", "tr"]
 
 # Play Commands
 PLAY_COMMAND : ["play", "vplay", "cplay", "प्ले", "वीप्ले", "oynat", "dinle"]
@@ -16,7 +16,7 @@ CHANNELPLAY_COMMAND : ["channelplay", "चैनलप्ले"]
 STREAM_COMMAND : ["stream", "धारा"]
 
 #Playlists Command
-PLAYLIST_COMMAND : ["playlist", "प्लेलिस्ट"]
+PLAYLIST_COMMAND : ["playlist", "प्लेलिस्ट", "liste"]
 DELETEPLAYLIST_COMMAND : ["deleteplaylist", "प्लेलिस्ट-हटाएं"]
 
 
@@ -36,8 +36,8 @@ MUTE_COMMAND : ["mute", "मूक"]
 UNMUTE_COMMAND : ["unmute", "अनम्यूट"]
 STOP_COMMAND : ["stop", "end", "विराम", "समाप्त", "son"]
 SKIP_COMMAND : ["skip", "छोड़ें", "atla"]
-SHUFFLE_COMMAND : ["shuffle", "मिश्रण"]
-LOOP_COMMAND : ["loop", "लूप"]
+SHUFFLE_COMMAND : ["shuffle", "मिश्रण", "karistir"]
+LOOP_COMMAND : ["loop", "लूप", "tekrar"]
 
 
 # Sudo Users Commaands
