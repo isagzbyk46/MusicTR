@@ -1,4 +1,4 @@
-name : Turkish
+name : Türkçe
 
 # Genel Dizeler
 general_1 : "Kullanıcının mesajını yanıtlama veya kullanıcı adı/user_id verme."
@@ -10,7 +10,7 @@ general_6 : "Bot sesli sohbette yayın yapmıyor."
 
 # Sınıflar - Telegram.py
 tg_1 : "Bot şu anda indirmelerle **Aşırı yüklendi**.\n\n**Sonra Dene:** {0} (__beklenen süre__)"
-tg_2 : "Failed to download the media from telegram."
+tg_2 : "Telegram'dan medya indirilemedi."
 
 # Çekirdek - Call.py
 call_1 : "Bot, asistan hesabını kanalınıza davet etmek için **Admin** İzni gerektirir.\n\nKanal playmode'u devre dışı bırakma: /playmode"
@@ -46,7 +46,7 @@ admin_7 : "Müzik zaten Sessiz."
 admin_8 : "🎧 Sesli Sohbet Sesi Açıldı. Tarafından {}!"
 admin_9 : "🎧 Sesli sohbet Kapatıldı. Tarafından {}!"
 admin_10 : "🎧 Sesli sohbeti Atlayan {}!. Kuyrukta Daha Fazla Müzik Yok."
-admin_11 : "Akışı değiştir değiştirilirken hata oluştu **{0}**\n\nLütfen kullanın /skip komut."
+admin_11 : "Akışı değiştir değiştirilirken hata oluştu **{0}**\n\nLütfen kullanın /atla komut."
 admin_12 : "Etkin döngü yürütme nedeniyle belirli bir parçaya atlanamıyor. Lütfen döngü oynatmayı devre dışı bırakın `/döngü devre dışı bırak' bu özelliği kullanmak için."
 admin_13 : "Lütfen 1, 2 veya 4 gibi belirli parçalar için sayısal sayılar kullanın"
 admin_14 : "Belirli bir sayıya atlamak için sırada gereken en az 2 parça. Sırayı denetle /queue"
@@ -57,9 +57,9 @@ admin_18 : "Yönetici Listesi Bulunamadı\n\nLütfen yönetici listesini /adminc
 admin_19 : "Bunu gerçekleştirmek için sesli sohbet haklarını yönetme konusunda yönetici olmanız gerekir.\nZaten yöneticiyseniz, admincache'i /admincache denetleyin "
 admin_20 : "Yönetici önbelleği başarıyla yeniden yüklendi."
 admin_21 : "Kuyruk içinde karıştırılacak bir şey yok"
-admin_22 : "Karıştırılamadı.\n\nSırayı denetle : /queue"
+admin_22 : "Karıştırılamadı.\n\nSırayı denetle : /queue /sira"
 admin_23 : "**Sıra Karıştırıldı by {0}**\n\nKarıştırılmış kuyruğu denetle : /queue"
-admin_24 : "**Kullanım:**\n/loop [enable/disable] veya [Arasındaki sayı 1-10]\n\n**Örneğin:** /loop 5"
+admin_24 : "**Kullanım:**\n/tekrar [enable/disable] veya [Arasındaki sayı 1-10]\n\n**Örneğin:** /tekrar 5"
 admin_25 : "Döngü tarafından etkinleştirildi {0} for **{1}** kere. Bot şimdi sesli sohbette mevcut müzik çalmayı tekrarlayacak **{1}** kere"
 admin_26 : "Tekrar oynatmak için lütfen 1-10 arasındaki numaraları kullanın"
 admin_27 : "Tekrar oynatma devre dışı bırakıldı"
