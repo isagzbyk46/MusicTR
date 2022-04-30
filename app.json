@@ -26,7 +26,7 @@
       "AUTO_LEAVING_ASSISTANT": {
         "description": "Asistanınızın bir süre sonra tüm sohbetleri otomatik olarak bırakmasını istiyorsanız.",
         "value": "True",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN": {
         "description": "Botfather'dan bir Bot jetonu",
@@ -55,6 +55,11 @@
       },
       "STRING_SESSION2": {
         "description": "Pyrogram Dize Oturumu. İkinci Asistan Zorunlu Değildir.",
+        "value": "",
+        "required": false
+      },
+      "STRING_SESSION3": {
+        "description": "Pyrogram Dize Oturumu. Üçüncü Asistan Zorunlu Değildir.",
         "value": "",
         "required": false
       },
