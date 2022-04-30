@@ -216,13 +216,13 @@ queue_2 : "Kuyruk içinde iz yok."
 queue_3 : "<u>**Kuyruğa Atılmış İzler:</u>**  [Buradan Daha Fazla Sıraya Alınan parça]({0})"
 queue_4 : "⏳ Kuyruğa Eklendi **#{0}\n\n💡 Başlık:** {1}\n**⏱Süre:** {2}\n👤 **Ekleyen:** {3}"
 
-# All Streaming Lines
+# Tüm Akış Hatları
 stream_1 : "🔊 **Akış Başlatıldı** 💡\n\n👤 **İsteyen:** {0}\n🔦 **Bilgi: **[Bot Menüsü]({1})"
 stream_2 : "🔊 **URL üzerinden Akışa Başladı ** 💡\n\n👤**Requested By:** {0}"
 stream_3 : "🔊 **Akış Başlatıldı** 💡\n\n**🏷 Başlık:** {0}\n⌛️ **Süre**: {1}\n👤 **İsteyen:** {2}"
 stream_4 : "🔊 **Akış Başlatıldı** 💡\n\n**🏷 Başlık:** [{0}]({1})\n⌛️ **Süre**: {2}\n👤 **İstenen:** {3}"
 
-# Inline Buttons
+# Satır İçi Düğmeler
 
 #General Buttons
 CLOSE_BUTTON  : "👉 Kapat"
@@ -256,27 +256,27 @@ PM_B_2 : "InlineMarkup"
 PM_B_3 : "ChannelPlay"
 
 #Play
-P_B_1 : "🎵 Sesi Çal"
-P_B_2 : "🎥 Videoyu Oynat"
+P_B_1 : "🎵 Oynat"
+P_B_2 : "🎥 Video Oynat"
 P_B_3 : "🏮 Canlı Yayını Başlat"
-P_B_4 : "🎵 Çalma Listesini Çal"
+P_B_4 : "🎵 Çalma Listesini Oynat"
 
 #Playlist
 PL_B_1 : "🚀 Çalma Listesini Oynat"
 PL_B_2 : "✚ Çalma Listeleri"
 PL_B_3 : "✚ Komutlar"
-PL_B_4 : "📡 Çalma Modu"
-PL_B_5 : "🔄 Del Tüm Çalma Listesi"
+PL_B_4 : "🍀 Çalma Modu"
+PL_B_5 : "🔄 Tüm Listeyi Sil"
 PL_B_6 : "↗️ Çalma Listesini Sil"
 PL_B_7 : "❗️ Evet, eminim. Sil"
 PL_B_8 : "🔢 En İyi 10'u şimdi dinle"
-PL_B_9 : "🤖 Global Top 10 Parçalarını Çal"
-PL_B_10 : "🏘 Play Group'un En İyi 10 Parçası"
-PL_B_11 : "👤 Kişisel En İyi 10 Parçayı Çal"
+PL_B_9 : "🤖 Top 10 Listesini Oynat"
+PL_B_10 : "🏘 Grubun En İyi 10 Parçası"
+PL_B_11 : "👤 Kişisel En İyi 10 Müzik"
 
 #Settings
 ST_B_1 : "🔊 Ses Kalitesi"
-ST_B_2 : "🎥 Vid Kalitesi"
+ST_B_2 : "🎥 Video Kalitesi"
 ST_B_3 : "🎩 Kimlik Doğrulama Kullanıcıları"
 ST_B_4 : "📱 Tablo"
 ST_B_5 : "▶️ Çalma Modu"
@@ -303,7 +303,7 @@ ST_B_25 : "🫂 Çalma Türü"
 ST_B_26 : "🗑 Komut Temizle"
 
 #Song
-SG_B_1 : "↗️ Özel Sohbeti Aç"
+SG_B_1 : "↗️ Özel Sohbeti Açınız"
 SG_B_2 : "🔊 Ses"
 SG_B_3 : "🎥 Video"
 
