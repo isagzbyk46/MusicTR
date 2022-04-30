@@ -217,16 +217,16 @@ queue_3 : "<u>**Kuyruğa Atılmış İzler:</u>**  [Buradan Daha Fazla Sıraya A
 queue_4 : "⏳ Kuyruğa Eklendi **#{0}\n\n💡 Başlık:** {1}\n**⏱Süre:** {2}\n👤 **Ekleyen:** {3}"
 
 # All Streaming Lines
-stream_1 : "📡 **Akış Başlatıldı** 💡\n\n👤 **İsteyen:** {0}\n🔦 **Bilgi: **[Bot Menüsü]({1})"
-stream_2 : "📡 **URL üzerinden Akışa Başladı ** 💡\n\n👤**Requested By:** {0}"
-stream_3 : "📡 **Akış Başlatıldı** 💡\n\n**🏷 Başlık:** {0}\n⌛️ **Süre**: {1}\n👤 **İsteyen:** {2}"
-stream_4 : "📡 **Akış Başlatıldı** 💡\n\n**🏷 Başlık:** [{0}]({1})\n⌛️ **Süre**: {2}\n👤 **İstenen:** {3}"
+stream_1 : "🔊 **Akış Başlatıldı** 💡\n\n👤 **İsteyen:** {0}\n🔦 **Bilgi: **[Bot Menüsü]({1})"
+stream_2 : "🔊 **URL üzerinden Akışa Başladı ** 💡\n\n👤**Requested By:** {0}"
+stream_3 : "🔊 **Akış Başlatıldı** 💡\n\n**🏷 Başlık:** {0}\n⌛️ **Süre**: {1}\n👤 **İsteyen:** {2}"
+stream_4 : "🔊 **Akış Başlatıldı** 💡\n\n**🏷 Başlık:** [{0}]({1})\n⌛️ **Süre**: {2}\n👤 **İstenen:** {3}"
 
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "❌ Kapat"
-CLOSEMENU_BUTTON  : "❌ Kapat"
+CLOSE_BUTTON  : "👉 Kapat"
+CLOSEMENU_BUTTON  : "👉 Kapat"
 BACK_BUTTON : "⬅ Geri"
 UNBAN_BUTTON : "🗑 Unban Yardımcısı"
 
