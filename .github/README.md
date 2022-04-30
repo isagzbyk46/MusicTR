@@ -1,4 +1,5 @@
-### Müzik Görüntülü Video 🎧
+### Telegram tabanlı gelişmiş bot 🎧
+
 - Türkçe 🇹🇷 Dil Yaması Eklendi.. 
 
 - Orjinal Repo [Yukki Team](https://github.com/TeamYukki/YukkiMusicBot) 
