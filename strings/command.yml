@@ -10,7 +10,7 @@ STATS_COMMAND : ["stats", "आँकड़े"]
 LANGUAGE_COMMAND : ["lang", "language", "en", "tr"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "vplay", "cplay", "प्ले", "वीप्ले", "oynat", "dinle"]
+PLAY_COMMAND : ["play", "vplay", "cplay", "प्ले", "वीप्ले", "oynat", "dinle", "vizle"]
 PLAYMODE_COMMAND : ["playmode", "खेल विधा"]
 CHANNELPLAY_COMMAND : ["channelplay", "चैनलप्ले"]
 STREAM_COMMAND : ["stream", "धारा"]
@@ -27,8 +27,8 @@ LYRICS_COMMAND : ["lyrics", "बोल"]
 
 
 # Admin Commands
-AUTH_COMMAND : ["auth", "प्रमाणन"]
-UNAUTH_COMMAND : ["unauth", "अनधिकृत"]
+AUTH_COMMAND : ["auth", "yetkili", "प्रमाणन"]
+UNAUTH_COMMAND : ["unauth", "yetkisiz", "अनधिकृत"]
 AUTHUSERS_COMMAND : ["authusers", "लेखक"]
 PAUSE_COMMAND : ["pause", "ठहराव", "durdur"]
 RESUME_COMMAND : ["resume", "फिर-शुरू-करना", "devam"]
