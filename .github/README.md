@@ -5,6 +5,7 @@
 - Orjinal Repo [Yukki Team](https://github.com/TeamYukki/YukkiMusicBot) 
 
 -  Hatalar Giderildi. Aktif çalışmaktadır. 
+- Botun başlat menüsüne Türkçe Sabit komut bilgileri eklendi. 
 
 ## Heroku için tıklayınız. 
 <img src="https://i.ibb.co/khRz42f/Turkish-Voice.jpg">
