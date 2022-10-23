@@ -1,12 +1,3 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
-
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import adminlist
@@ -33,7 +24,7 @@ def AdminRightsCheck(mystic):
             language = await get_lang(message.chat.id)
             _ = get_string(language)
         except:
-            _ = get_string("en")
+            _ = get_string("tr")
         if message.sender_chat:
             upl = InlineKeyboardMarkup(
                 [
@@ -84,7 +75,7 @@ def AdminActual(mystic):
             language = await get_lang(message.chat.id)
             _ = get_string(language)
         except:
-            _ = get_string("en")
+            _ = get_string("tr")
         if message.sender_chat:
             upl = InlineKeyboardMarkup(
                 [
@@ -120,7 +111,7 @@ def ActualAdminCB(mystic):
             language = await get_lang(CallbackQuery.message.chat.id)
             _ = get_string(language)
         except:
-            _ = get_string("en")
+            _ = get_string("tr")
         if CallbackQuery.message.chat.type == "private":
             return await mystic(client, CallbackQuery, _)
         is_non_admin = await is_nonadmin_chat(
